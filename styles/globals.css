@@ -1,33 +1,75 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  background-color: ;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.Navbar {
+  background-color: gray;
+  font-size: xx-large;
+  text-align: left;
+  border: 2px solid;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.Box1 {
+  background-color: aqua;
+  float: left;
+  padding: 35px;
+  border: 3px solid;
+  margin: 20px;
+  margin-left: 30px;
+  margin-top: 300px;
+  text-align: center;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.Box2 {
+  background-color: red;
+  float: left;
+  padding: 35px;
+  border: 3px solid;
+  margin: 20px;
+  margin-top: 300px;
+  text-align: center;
+}
+.Box3 {
+  background-color: yellow;
+  float: left;
+  padding: 35px;
+  border: 3px solid;
+  margin: 20px;
+  margin-top: 300px;
+  text-align: center;
+}
+.Box4 {
+  background-color: purple;
+  float: left;
+  padding: 35px;
+  border: 3px solid;
+  margin: 20px;
+  margin-top: 300px;
+  text-align: center;
+}
+.Card {
+  font-size: 20px;
+  float: right;
+  background-color: #6485ad;
+  height: 858px;
+  width: 300px;
+  border: 10px solid;
+  text-align: center;
+}
+.Card-item {
+  text-align: center;
+  margin-top: 50%;
+}
+.Mybut {
+  background-color: red;
+  padding: 2px;
+  border: 3px solid;
+}
+.Photo {
+  width: 270px;
+  height: 250px;
+}
+.Select {
+  background-color: gray;
+  border: 3px solid;
 }
