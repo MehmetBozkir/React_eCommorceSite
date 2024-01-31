@@ -8,7 +8,7 @@ First shopping website attempt with Reactjs.
 <br> 
   
   :wrench: Features 
-  -------------------
+  --------------------
 
   A working model that combines Reactjs, css and html.
   
